@@ -1,1 +1,13 @@
-../xmodmap-shiftesc
+!
+! Swap Caps_Lock and Control_L
+! set åäö to alt-gr
+! setxkbmap us dvorak-intl
+!
+remove Shift = Shift_L
+keysym XF86AudioPlay = Shift_L
+keysym Shift_L = Escape
+keysym Escape = 0x1008ff14
+add Shift = Shift_L
+keycode 38 = a A a A aring Aring
+keycode 39 = o O o O adiaeresis Adiaeresis
+keycode 40 = e E e E odiaeresis Odiaeresis

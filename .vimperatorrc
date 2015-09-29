@@ -1,1 +1,19 @@
-../.vimperatorrc
+set hlsearch
+
+noremap Q :
+
+noremap e t
+noremap T n
+noremap t j
+noremap n k
+noremap s l
+
+noremap K S
+noremap k s
+
+noremap <C-n> :forward<Return>
+noremap a :back<Return>
+noremap E T
+
+
+set hintchars=aoeuhtnsid
